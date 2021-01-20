@@ -1,9 +1,19 @@
 import React from 'react'
-import "../../styles/styles.scss"
+import Footer from './Footer'
+import Header from './Header'
+import Main from './Main'
+import SearchBar from './SearchBar'
+import '../../styles/styles.scss'
+
+
+
 
 const App = () => (
-    <div>
-    <h1>This is a webpack, babel, sass, react application</h1>
+    <div id="grid__container">
+        <Header />
+        <SearchBar />
+        <Main />
+        <Footer />
     </div>
 )
 

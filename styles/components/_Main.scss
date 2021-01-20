@@ -1,0 +1,24 @@
+#day1 { grid-area: day1; }
+
+
+#day1 {
+    // outline: 1px solid black;
+
+}
+
+
+
+#maincontainer {
+display: flex;
+padding-top: 5px;
+padding-bottom: 5px;
+border-bottom: 1px solid black;
+}
+
+#num1 {
+ flex-grow: 1;
+}
+
+#num2 {
+flex-grow: 1;
+}
