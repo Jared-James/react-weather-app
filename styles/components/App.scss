@@ -1,0 +1,47 @@
+#grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.3fr 3.2fr 0.2fr;
+  gap: 04px 04px;
+  grid-template-areas:
+    "Header Header Header Header"
+    "Search-Bar Search-Bar Search-Bar Search-Bar"
+    ". WeatherDisplay WeatherDisplay ."
+    "Footer Footer Footer Footer";
+    height: 100vh;
+}
+
+#Search-Bar { grid-area: Search-Bar; }
+#WeatherDisplay { grid-area: WeatherDisplay; }
+#Footer { grid-area: Footer; }
+#Header { grid-area: Header; }
+
+//  @media (min-width: 300px){
+//   #grid-container{
+//     grid-template-columns: auto 1fr;
+//     grid-template-rows: auto 1fr auto;
+//     grid-template-areas:
+//       "header "
+//       "Search-bar "
+//       "day1 "
+//       "Footer"
+//       ;
+//   }
+// }
+
+// @media (min-width: 500px){
+//   #grid-container{
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+//     grid-template-rows: 0.5fr 0.5fr 3fr 0.5fr;
+//     gap: 5px 5px;
+//     height: 100vh;
+//     grid-template-areas:
+//     "Header Header Header Header"
+//     ". Search-Bar Search-Bar ."
+//     ". WeatherDisplay WeatherDisplay ."
+//     "Footer Footer Footer Footer";
+//   }
+// }
+
+

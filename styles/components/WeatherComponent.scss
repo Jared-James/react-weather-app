@@ -1,13 +1,8 @@
-#day1 {
-     grid-area: day1;
-     }
-
-
-#day1 {
+#WeatherDisplay {
     background: linear-gradient(180deg, rgba(191,215,240,1) 0%, rgba(215,215,222,1) 97%);
 
 }
-#maincontainer {
+#day1 {
 display: flex;
 margin-top: 50px;
 background-color: #65a8db;
@@ -15,12 +10,16 @@ padding-top: 5px;
 padding-bottom: 5px;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;margin-top: 15px;
 padding-left: 10px;
+justify-content: center;
+align-items: center;
+height: 10vh;
+width: 100%;
 }
 
-#num1 {
+#section-1 {
  flex-grow: 1;
 }
 
-#num2 {
+#section-2 {
 flex-grow: 1;
 }
