@@ -24,3 +24,9 @@ Script
 + ✔️ Framework: React
 + ✔️ Style: Sass
 + ✔️ Webpack + babel
+
+---
+
+### runs on:
+- localhost:8080
+- webpack/babel
