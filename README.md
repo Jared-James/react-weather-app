@@ -12,7 +12,7 @@
 Installation
 
 - Clone Repo
-- NPM i
+- NPM Install
 
 Script
 
