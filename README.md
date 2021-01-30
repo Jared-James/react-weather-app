@@ -15,6 +15,6 @@ Script
 
 ---
 
-✔️ Language: Javascript
-✔️ Framework: React
-✔️ Style: Sass
++ ✔️  Language: Javascript
++ ✔️ Framework: React
++ ✔️ Style: Sass
