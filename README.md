@@ -12,3 +12,9 @@
 
 Script
 - NPM start
+
+---
+
+✔️ Language: Javascript
+✔️ Framework: React
+✔️ Style: Sass
