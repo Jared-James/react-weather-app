@@ -9,12 +9,18 @@
 ⚡ display the weather for the location you search for the following 8 days.
 
 ---
+Installation
+
+- Clone Repo
+- NPM i
 
 Script
+
 - NPM start
 
 ---
 
-+ ✔️  Language: Javascript
++ ✔️ Language: Javascript
 + ✔️ Framework: React
 + ✔️ Style: Sass
++ ✔️ Webpack + babel
