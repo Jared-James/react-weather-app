@@ -1,10 +1,9 @@
 @import '../abstracts/_Mixins';
 
-
-
-
 #WeatherDisplayApp {
     background: linear-gradient(180deg, rgba(191,215,240,1) 0%, rgba(215,215,222,1) 97%);
+    width: 100%;
+    align-items: center;
 }
 
 #day1 {
@@ -20,6 +19,14 @@ padding-left: 10px;
 align-items: center;
 height: 40%;
 width: 100%;
+}
+
+#titleText {
+    text-align: center;
+}
+
+#titleTextSubtitle {
+    padding-top: 20px;
 }
 
 #section-1 {
