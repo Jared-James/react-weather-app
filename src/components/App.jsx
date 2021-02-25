@@ -25,7 +25,7 @@ const App = () => {
                 <div id="grid-container">
                     <div id="Header"><Header /></div>
                     <div id="Search-Bar"><SearchBar /></div>
-                    <div id="WeatherDisplay"><WeatherComponent /></div>
+                    <div id="WeatherDisplayApp"><WeatherComponent /></div>
                     <div id="Footer"><Footer /></div>
                 </div >
             </Context.Provider >

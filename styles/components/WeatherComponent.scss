@@ -1,18 +1,24 @@
-#WeatherDisplay {
-    background: linear-gradient(180deg, rgba(191,215,240,1) 0%, rgba(215,215,222,1) 97%);
+@import '../abstracts/_Mixins';
 
+
+
+
+#WeatherDisplayApp {
+    background: linear-gradient(180deg, rgba(191,215,240,1) 0%, rgba(215,215,222,1) 97%);
 }
+
 #day1 {
 display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 margin-top: 50px;
 background-color: #65a8db;
 padding-top: 5px;
 padding-bottom: 5px;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;margin-top: 15px;
 padding-left: 10px;
-justify-content: center;
 align-items: center;
-height: 10vh;
+height: 40%;
 width: 100%;
 }
 
@@ -23,3 +29,18 @@ width: 100%;
 #section-2 {
 flex-grow: 1;
 }
+
+@include breakpoint(mobile) {
+    #day1 {
+       align-items: flex-start;
+    }
+ 
+  }
+
+@include breakpoint(mobile-horizontal) {
+    #day1 {
+        flex-direction: row;
+        align-items: center;
+    }
+ 
+  }

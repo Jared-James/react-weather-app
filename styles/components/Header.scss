@@ -1,10 +1,47 @@
+@import '../abstracts/_Mixins';
+
 #title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
     height: 10vh;
     width: 100%;
+
+    @include breakpoint(mobile) {
+        h1 {
+            color: red;
+        }
+    }
+    @include breakpoint(mobile-horizontal) {
+        h1 {
+            color: orange;
+        }
+    @include breakpoint(tablet) {
+        h1 {
+            color:pink;
+        }
+    }
+  
+    }
+    @include breakpoint(tablet-horizontal) {
+        h1 {
+            color: yellow;
+        }
+    }
+    @include breakpoint(desktop) {
+        h1 {
+            color: blue;
+        }
+    }
+    @include breakpoint(desktop-wide) {
+        h1 {
+            color: black;
+        }
+    }
+
 }
 
 #title > p {
