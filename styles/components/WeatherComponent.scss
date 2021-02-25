@@ -41,6 +41,16 @@ flex-grow: 1;
     #day1 {
         flex-direction: row;
         align-items: center;
+        justify-content: center;
+    }
+ 
+  }
+
+  @include breakpoint(desktop) {
+    #day1 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
  
   }
