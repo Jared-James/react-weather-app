@@ -3,7 +3,6 @@
 #title {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding-top: 1em;
     padding-bottom: 0.5em;
@@ -14,4 +13,8 @@
 
 #title > p {
     margin-top: 10px;
+}
+
+#titleText {
+    align-content: center;
 }
