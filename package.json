@@ -36,7 +36,8 @@
     "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
-    "start": "npm install webpack serve --mode=production",
+    "heroku-prebuild": "npm install --dev",
+    "start": "webpack serve --mode=production",
     "build": "webpack --mode=production",
     "dev-server": "webpack serve --mode=development"
   },
