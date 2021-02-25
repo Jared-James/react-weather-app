@@ -20,7 +20,7 @@ const MultiWeatherReport = (props) => {
                         <li><p>{weather.weather[0].description}</p></li>
                         <li><p>Feels like: {weather.feels_like.day} Degrees</p></li>
                         {props.weather.rain ? <li><p>Rain: {weather.rain}mm</p></li> : ''}
-                        <li><img src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`} /></li>
+                        <li><img src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`} /></li>
                     </ul>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const SearchBar = () => {
     const { setLng } = useContext(Context)
     const { setLat } = useContext(Context)
 
-    let typedLocation = `http://www.mapquestapi.com/geocoding/v1/address?key=pWFkAoRnBlpN3k6tm20uC3NopiKYaH6h&location=${location}`
+    let typedLocation = `https://www.mapquestapi.com/geocoding/v1/address?key=pWFkAoRnBlpN3k6tm20uC3NopiKYaH6h&location=${location}`
 
     const handleSubmit = (e) => {
         e.preventDefault()
