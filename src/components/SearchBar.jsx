@@ -42,6 +42,7 @@ const SearchBar = () => {
                         type="search"
                         name="search"
                         onChange={handleChange}
+                        autoComplete={false}
                     />
                     <button type="submit" value="submit">Search</button>
                 </form>

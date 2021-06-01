@@ -1,4 +1,4 @@
-const HtmlWebPackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 module.exports = {
    context: __dirname,
@@ -31,7 +31,7 @@ module.exports = {
    },
    resolve: { extensions: ["*", ".js", ".jsx", '.scss'] },
    plugins: [
-      new HtmlWebPackPlugin({
+      new HtmlWebpackPlugin({
          inject: true,
          template: path.resolve(__dirname, 'public/index.html'),
          filename: 'index.html'
